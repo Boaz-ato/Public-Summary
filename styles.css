@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  font-family: 'Baskervville', serif;
+  font-family: 'Helvetica', serif;
   color: linen;
   background-color: rgb(20, 30, 40);
 }
@@ -66,13 +66,13 @@ hr {
 
 .hero-title {
   text-align: center;
-  color: orangered;
+  color: #C17952;
   font-size: 8rem;
 }
 
 .hero-subtitle {
   font-size: 2.4rem;
-  color: orangered;
+  color: #C17952;
   text-align: center;
 }
 
@@ -100,7 +100,7 @@ hr {
 
 .first-paragraph::first-letter {
   font-size: 6rem;
-  color: orangered;
+  color: #C17952;
   float: left;
   margin-right: 1rem;
 }
@@ -198,7 +198,7 @@ video {
   max-width: 800px;
   height: auto;
   display: block;
-  margin-top: 10px;
+ 
 }
 #carouselExampleCaptions{
 
@@ -214,4 +214,19 @@ margin-bottom: 50px;
 
   font-weight: bold;
   font-size: 150%;
+}
+
+#ising{
+
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.pic{
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom:  10px;
+}
+.link{
+  color: #00beef;
 }
